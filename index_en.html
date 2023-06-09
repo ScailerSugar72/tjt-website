@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- English page-specific head content goes here -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Podcast Hub (English)</title>
+  <link rel="stylesheet" href="style_en.css">
+  
+  <!-- English page-specific JavaScript goes here -->
+  <script>
+    // JavaScript for switching between light and dark mode
+    function toggleDarkMode() {
+      const body = document.querySelector('body');
+      body.classList.toggle('dark-mode');
+    }
+  </script>
+</head>
+
+<body>
+  <div class="container">
+    <!-- English page-specific content goes here -->
+    <div class="language-switch">
+      <a href="index_cs.html"><img src="flag - cz.png" alt="Czech Flag"></a>
+    </div>
+    
+    <div>
+      <button onclick="toggleDarkMode()">Toggle between Dark and Light mode </button>
+    </div>
+    
+    <img src="TJT-TRANSPARENT.png" alt="Podcast Logo (English)" class="logo">
+    
+    <div class="social-icons">
+        <a href="https://www.instagram.com/teenjourneytalk/" target="_blank">
+          <img src="instagram.png" alt="Instagram" class="social-icon" id="instagram-icon">
+        </a>
+        <a href="https://open.spotify.com/show/3BuuXr6SfUuJp7LHrstC0e?si=e312ef6f3ee8418d" target="_blank">
+          <img src="spotify.png" alt="Spotify" class="social-icon" id="spotify-icon">
+        </a>
+        <a href="https://podcasts.apple.com/cz/podcast/teen-journey-talk-en/id1681068753" target="_blank">
+          <img src="apple-podcasts.png" alt="Apple Podcasts" class="social-icon" id="apple-podcasts-icon">
+        </a>
+        <a href="https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9kZTRhNWRiMC9wb2RjYXN0L3Jzcw?sa=X&ved=2ahUKEwih1NiJzbH_AhVOiv0HHZe7AIMQ9sEGegQIARAC" target="_blank">
+          <img src="google-podcasts.png" alt="Google Podcasts" class="social-icon" id="google-podcasts-icon">
+        </a>
+      </div>
+  </div>
+</body>
+
+</html>

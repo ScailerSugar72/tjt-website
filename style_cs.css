@@ -1,0 +1,67 @@
+/* CSS for light mode */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  /* CSS for dark mode */
+  body.dark-mode {
+    background-color: #333;
+    color: #f9f9f9;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .logo {
+    max-width: 400px;
+    margin-bottom: 20px;
+  }
+  
+  .language-switch {
+    margin-bottom: 20px;
+  }
+  
+  .language-switch img {
+    width: 30px;
+    height: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+
+       /* ... Existing CSS styles ... */
+        
+       #instagram-icon {
+        width: 90px;
+        height: 90px;
+      }
+      
+      #spotify-icon {
+        width: 220px;
+        height: 100px;
+      }
+      
+      #apple-podcasts-icon {
+        width: 240px;
+        height: 100px;
+      }
+      
+      #google-podcasts-icon {
+        width: 250px;
+        height: 100px;
+      }
